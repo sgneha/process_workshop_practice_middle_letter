@@ -9,4 +9,7 @@ describe 'find middle letter' do
   it 'when string of odd number of letters proivided' do
     expect(get_middle('xyzab')).to eq 'z'
   end
+  it 'when string of even number of letters proivided' do
+    expect(get_middle('xyza')).to eq 'yz'
+  end
 end
