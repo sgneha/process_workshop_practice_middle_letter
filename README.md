@@ -16,4 +16,5 @@ get_middle("testing") # => "t"
 get_middle("middle") # => "dd"
 get_middle("A") # => "A"
 get_middle("of") # => "of"
+get_middle("") # => ""
 ```
